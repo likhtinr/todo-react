@@ -23,13 +23,16 @@ const TaskPage = (props) => {
       .finally(() => {
         setIsLoading(false);
       });
-  }, []);
+  }, [taskId]);
 
   if (isLoading) {
     return <div>Загрузка...</div>;
   }
   if (hasError) {
     return <div>Задача не найдена</div>;
+  }
+  if (!task) {
+    return <div>Задача не найдена (404)</div>;
   }
   return (
     <div>
