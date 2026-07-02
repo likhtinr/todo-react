@@ -1,12 +1,32 @@
-# React + Vite
+# Todo React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Учебный проект — приложение для управления задачами, созданное на React.
 
-Currently, two official plugins are available:
+## О проекте
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Todo React** — это простое todo-приложение, в котором можно добавлять, отмечать и удалять задачи.  
+Проект создан в рамках практики frontend-разработки и помогает закрепить базовые навыки работы с React и компонентным подходом.
 
-## Expanding the ESLint configuration
+## Цель проекта
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- закрепить основы React;
+- потренироваться в создании компонентов;
+- научиться работать с состоянием приложения;
+- реализовать базовую логику todo-приложения;
+- оформить проект для GitHub-портфолио.
+
+## Стек
+
+- React
+- JavaScript
+- HTML
+- CSS
+- Vite
+
+## Функциональность
+
+- добавление новых задач;
+- отметка задачи как выполненной;
+- удаление задач;
+- удобный и понятный интерфейс;
+- адаптивная верстка.
